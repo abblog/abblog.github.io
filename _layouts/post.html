@@ -8,8 +8,7 @@ layout: default
            {{ page.title }}
        </h1>
        <span class="post-date">{{ page.date | date: "%m/%d/%Y" }}</span>
-       <span class="post-reading-time"> {{(page.reading_time | clean_reading_time)}}</span>
+       <span class="post-reading-time">{% if page.reading_time == null %}1{% else %}{{page.reading_time}}{% endif %} minute read</span>
     </div>
     {{ content }}
   </div>
-
