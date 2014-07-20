@@ -1,0 +1,61 @@
+# Title, decription, tagline and URL for your site
+# Can be used in your theme by calling 'site.title' and so on
+title: Hi. I'm Aaron Batalion
+description: Co-founder & 1st CTO, LivingSocial. Angel Investor, Dad.
+tagline: some blog
+url: localhost:4000
+
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+source: src
+destination: serve
+
+# Same as the title etc for your site but can instead be
+# called by using 'site.owner.name' and so on
+owner:
+  name: Some Guy
+  email: someone@somewhere
+  bio: short description
+  twitter: mytwitterhandle
+
+# general setting for Jekyll
+googleAnalytics: UA-XXXXX-X
+
+# _config.build.yml overwrites these options when you run `gulp build`
+# Enables future posts (posts with dates in the future) and drafts
+future: true
+show_drafts: true
+# Disables the more accurate related posts for faster generating of the site
+lsi: false
+
+
+
+# Markdown library
+markdown: redcarpet
+# Markdown library options
+# redcarpet:
+  # extensions: ['fenced_code_blocks', 'smart']
+highlighter: pygments
+
+# Run during the 'gulp build' command
+# Overrides these options in the
+
+# Overrides the default URL, needed for your atom feed and sitemap
+url: http://somesite.com
+
+# Hides your drafts and future posts
+future: false
+show_drafts: false
+# Gives you more accurate related posts
+lsi: false
+# Removes the upper limit for posts generated
+limit_posts: 0
+markdown: redcarpet
+source: 'src'
+destination: 'serve'
+highlighter: pygments
+
+# Permalink structure and pagination options
+relative_permalinks: false
+permalink: pretty
+paginate_path: 'page:num'
+paginate: 10

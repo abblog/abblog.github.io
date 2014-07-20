@@ -1,0 +1,67 @@
+@import "vendor/poole.css";
+@import "vendor/hyde.css";
+@import "vendor/syntax.css";
+@import "vendor/zocial.css";
+
+.sidebar-nav-icons {
+    display:table;
+    margin: 0 auto;
+}
+.sidebar-nav-icons ul{
+  list-style-type: none;
+  padding: 15px 0px 0px 0px;
+  min-width: 80px;
+}
+.sidebar-nav-icons li {
+  float: left;
+  font-size: 0.9rem;
+  display:inline;
+  padding: 0rem 0.05rem;
+}
+.sidebar-nav-icons .icon {
+    color: #fff;
+    box-shadow:none;
+    border:none;
+    text-shadow:none;
+    background-image:none;
+    background-color:#333;
+    filter:alpha(opacity=60);
+    opacity:.6;
+
+}
+.zocial.email:before {
+    color:#fff;
+}
+.sidebar-nav-icons .icon:hover {
+ opacity:.9;
+
+}
+.sidebar-nav-icons span {
+  text-indent: -9999px;
+  display: block;
+}
+
+/* Meta data line below post title */
+.post-reading-time {
+  display: inline;
+  float:right;
+  color: #cacaca;
+  font-size:0.8rem
+}
+.post-date {display:inline;}
+.post-title {margin-bottom:0;}
+.post-header {margin-bottom:0.5rem;}
+
+.sidebar {
+  background-attachment: scroll;
+  background-color: rgb(49, 60, 75);
+  background-image: url(http://static.tumblr.com/4b6911a99bbeacca1cf1756a88d1c320/ku15fky/4fGmoro3m/tumblr_static_aj_on_shoulders_bridge_cropped_blurred_darker.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  box-sizing: border-box;
+  color: rgb(245, 245, 252);
+  display: block;
+}
+.sidebar .lead {font-size:0.85rem;font-weight: 100;line-height: 1}
+.sidebar  .sidebar-more {color:#cbe7f8}
+.sidebar h1 {font-size:1.5rem}
